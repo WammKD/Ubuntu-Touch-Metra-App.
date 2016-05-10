@@ -1,0 +1,17 @@
+{
+    "name": "metra.jaft",
+    "description": "description of Metra",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Metra",
+    "hooks": {
+        "Metra": {
+            "apparmor": "Metra/Metra.apparmor",
+            "desktop":  "Metra/Metra.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Jonathan Schmeling <jaft.r@outlook.com>",
+    "framework" : "ubuntu-sdk-15.04.4"
+}
+
+
