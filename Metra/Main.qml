@@ -48,7 +48,10 @@ MainView {
       width     : parent.width;
       text      : i18n.tr("Tap me!");
       onClicked : {
-        label.text = i18n.tr("..world!");
+        label.text = i18n.tr("Longitude: " +
+			     pos_src.position.coordinate.longitude +
+			     "; Latitude: " +
+			     pos_src.position.coordinate.latitude);
       }
 
       anchors {
@@ -58,20 +61,27 @@ MainView {
       }
     }
 
+    PositionSource {
+      id            : pos_src;
+      updateInterval: 1000;
+      active        : true;
+      
+    }
+
     Map {
       id             : map;
       plugin         : Plugin {
 	                 id       : plugin;
 			 preferred: ["here", "osm"];
                        }
-      zoomLevel      : map.minimumZoomLevel;
-      gesture.enabled: true;
       width          : parent.width;
       height         : parent.width;
+      zoomLevel      : 9.0;
+      gesture.enabled: true;
 
       center {
-        latitude : -27;
-        longitude: 153;
+        latitude : pos_src.position.coordinate.latitude;
+        longitude: pos_src.position.coordinate.longitude;
       }
 
       anchors {
