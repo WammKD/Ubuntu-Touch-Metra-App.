@@ -76,6 +76,8 @@ MainView {
     }
 
     Map {
+      property real lat: pos_src.position.coordinate.latitude;
+      property real lon: pos_src.position.coordinate.longitude;
       id             : map;
       plugin         : Plugin {
 	                 id       : plugin;
@@ -86,6 +88,7 @@ MainView {
       zoomLevel      : map.maximumZoomLevel * 0.60;
       gesture.enabled: true;
 
+      // Milwauke-District/North Line
       MapPolyline {
 	id        : md_n;
 	line.width: map.zoomLevel;
@@ -135,14 +138,13 @@ MainView {
 		     {latitude: 41.885721, longitude: -87.638928},
 		     {latitude: 41.878893, longitude: -87.638977}]
       }
-
       MapCircle {
 	id    : fox_lake;
 	color : circle_color;
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
-	  latitude: 42.398317;
+	  latitude :  42.398317;
 	  longitude: -88.182255;
 	}
       }
@@ -152,7 +154,7 @@ MainView {
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
-	  latitude: 42.383856;
+	  latitude :  42.383856;
 	  longitude: -88.153554;
 	}
       }
@@ -162,7 +164,7 @@ MainView {
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
-	  latitude: 42.368050;
+	  latitude :  42.368050;
 	  longitude: -88.128056;
 	}
       }
@@ -172,7 +174,7 @@ MainView {
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
-	  latitude: 42.354575;
+	  latitude :  42.354575;
 	  longitude: -88.094129;
 	}
       }
@@ -182,7 +184,7 @@ MainView {
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
-	  latitude: 42.333680;
+	  latitude :  42.333680;
 	  longitude: -88.043307;
 	}
       }
@@ -192,8 +194,8 @@ MainView {
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
-	  latitude: 42.318417;
-	  longitude: -88.017593;
+	  latitude :  42.320739;
+	  longitude: -88.015229;
 	}
       }
       MapCircle {
@@ -202,14 +204,124 @@ MainView {
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
-	  latitude: 42.291030;
+	  latitude :  42.291030;
 	  longitude: -87.956534;
+	}
+      }
+      MapCircle {
+	id    : lake_forest;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.223619;
+	  longitude: -87.874699;
+	}
+      }
+      MapCircle {
+	id    : deerfield;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.167977;
+	  longitude: -87.849967;
+	}
+      }
+      MapCircle {
+	id    : lake_cook_road;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.152269;
+	  longitude: -87.841452;
+	}
+      }
+      MapCircle {
+	id    : northbrook;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.126826;
+	  longitude: -87.827902;
+	}
+      }
+      MapCircle {
+	id    : glen_of_north_glenview;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.097562;
+	  longitude: -87.815908;
+	}
+      }
+      MapCircle {
+	id    : glenview;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.075010;
+	  longitude: -87.805658;
+	}
+      }
+      MapCircle {
+	id    : golf;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.058334;
+	  longitude: -87.797018;
+	}
+      }
+      MapCircle {
+	id    : morton_grove;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.034936;
+	  longitude: -87.785162;
+	}
+      }
+      MapCircle {
+	id    : edgebrook;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  41.997777;
+	  longitude: -87.765563;
+	}
+      }
+      MapCircle {
+	id    : forest glen;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  41.978184;
+	  longitude: -87.755568;
+	}
+      }
+      MapCircle {
+	id    : mayfair;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  41.997777;
+	  longitude: -87.765563;
 	}
       }
 
       center {
-        latitude : pos_src.position.coordinate.latitude;
-        longitude: pos_src.position.coordinate.longitude;
+        latitude : lat;
+        longitude: lon;
       }
 
       anchors {
