@@ -357,6 +357,30 @@ MainView {
 	}
       }
 
+      // North Central Service
+      MapPolyline {
+	id        : ncs;
+	line.width: map.zoomLevel;
+	line.color: '#7C53AF';
+	path      : [{latitude: 42.481071, longitude: -88.092227},
+		     {latitude: 42.464225, longitude: -88.090675},
+		     {latitude: 42.429313, longitude: -88.084349},
+		     {latitude: 42.367944, longitude: -88.057032},
+		     {latitude: 42.302731, longitude: -88.005605},
+		     {latitude: 42.278998, longitude: -88.003958},
+		     {latitude: 42.273015, longitude: -88.002268}]
+      }
+      MapCircle {
+	id    : antioch;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  42.481023;
+	  longitude: -88.092387;
+	}
+      }
+
       center {
         latitude : pos_src.position.coordinate.latitude;
         longitude: pos_src.position.coordinate.longitude;
