@@ -17,6 +17,10 @@ MainView {
   width          : units.gu(100);
   height         : units.gu(75);
 
+  function calcCircleRadius(zoom) {
+    return Math.pow(100000000000000000000000000, 1 / zoom);
+  }
+
   Page {
     header: PageHeader {
               id   : pageHeader;
@@ -133,7 +137,7 @@ MainView {
       MapCircle {
 	id    : fox_lake;
 	color : 'white';
-	radius: map.zoomLevel * 32;
+	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
 	  latitude: 42.398317;
@@ -143,7 +147,7 @@ MainView {
       MapCircle {
 	id    : ingleside;
 	color : 'white';
-	radius: map.zoomLevel * 32;
+	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
 	  latitude: 42.383856;
@@ -153,7 +157,7 @@ MainView {
       MapCircle {
 	id    : long_lake;
 	color : 'white';
-	radius: map.zoomLevel * 32;
+	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
 	  latitude: 42.368050;

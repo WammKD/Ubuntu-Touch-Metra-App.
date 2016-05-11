@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-10 23:11+0000\n"
+"POT-Creation-Date: 2016-05-11 11:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/jaft/Ubuntu/Metra/Metra/Main.qml:23
+#: /home/jaft/Ubuntu/Metra/Metra/Main.qml:27
 #: /home/jaft/Ubuntu/build-Metra-UbuntuSDK_for_armhf_GCC_ubuntu_sdk_15_04_vivid-Debug/Metra/Metra.desktop.h:1
 msgid "Metra"
 msgstr ""
 
-#: /home/jaft/Ubuntu/Metra/Metra/Main.qml:42
+#: /home/jaft/Ubuntu/Metra/Metra/Main.qml:46
 msgid "Hello.."
 msgstr ""
 
-#: /home/jaft/Ubuntu/Metra/Metra/Main.qml:49
+#: /home/jaft/Ubuntu/Metra/Metra/Main.qml:53
 msgid "Tap me!"
 msgstr ""
 
-#: /home/jaft/Ubuntu/Metra/Metra/Main.qml:51
+#: /home/jaft/Ubuntu/Metra/Metra/Main.qml:55
 msgid "Longitude: "
 msgstr ""
