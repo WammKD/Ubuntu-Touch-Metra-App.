@@ -186,6 +186,26 @@ MainView {
 	  longitude: -88.043307;
 	}
       }
+      MapCircle {
+	id    : prarie_crossing_libertyville;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude: 42.318417;
+	  longitude: -88.017593;
+	}
+      }
+      MapCircle {
+	id    : libertyville;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude: 42.291030;
+	  longitude: -87.956534;
+	}
+      }
 
       center {
         latitude : pos_src.position.coordinate.latitude;
