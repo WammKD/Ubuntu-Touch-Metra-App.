@@ -9,13 +9,15 @@ import Ubuntu.Components 1.3
 
 MainView {
   // objectName for functional testing purposes (autopilot-qt5)
-  objectName     : "mainView";
+  objectName                  : "mainView";
 
   // Note! applicationName needs to match the "name" field of click manifest
-  applicationName: "metra.jaft";
+  applicationName             : "metra.jaft";
 
-  width          : units.gu(100);
-  height         : units.gu(75);
+  width                       : units.gu(100);
+  height                      : units.gu(75);
+
+  property string circle_color: '#0054A4';
 
   function calcCircleRadius(zoom) {
     return Math.pow(100000000000000000000000000, 1 / zoom);
@@ -136,7 +138,7 @@ MainView {
 
       MapCircle {
 	id    : fox_lake;
-	color : 'white';
+	color : circle_color;
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
@@ -146,7 +148,7 @@ MainView {
       }
       MapCircle {
 	id    : ingleside;
-	color : 'white';
+	color : circle_color;
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
@@ -156,12 +158,32 @@ MainView {
       }
       MapCircle {
 	id    : long_lake;
-	color : 'white';
+	color : circle_color;
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
 	  latitude: 42.368050;
 	  longitude: -88.128056;
+	}
+      }
+      MapCircle {
+	id    : round_lake;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude: 42.354575;
+	  longitude: -88.094129;
+	}
+      }
+      MapCircle {
+	id    : grayslake;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude: 42.333680;
+	  longitude: -88.043307;
 	}
       }
 
