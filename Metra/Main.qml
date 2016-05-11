@@ -76,8 +76,6 @@ MainView {
     }
 
     Map {
-      property real lat: pos_src.position.coordinate.latitude;
-      property real lon: pos_src.position.coordinate.longitude;
       id             : map;
       plugin         : Plugin {
 	                 id       : plugin;
@@ -88,7 +86,7 @@ MainView {
       zoomLevel      : map.maximumZoomLevel * 0.60;
       gesture.enabled: true;
 
-      // Milwauke-District/North Line
+      // Milwaukee-District/North Line
       MapPolyline {
 	id        : md_n;
 	line.width: map.zoomLevel;
@@ -299,7 +297,7 @@ MainView {
 	}
       }
       MapCircle {
-	id    : forest glen;
+	id    : forest_glen;
 	color : circle_color;
 	radius: calcCircleRadius(map.zoomLevel);
 
@@ -314,14 +312,54 @@ MainView {
 	radius: calcCircleRadius(map.zoomLevel);
 
 	center {
-	  latitude :  41.997777;
-	  longitude: -87.765563;
+	  latitude :  41.959720;
+	  longitude: -87.745841;
+	}
+      }
+      MapCircle {
+	id    : grayland;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  41.948887;
+	  longitude: -87.740285;
+	}
+      }
+      MapCircle {
+	id    : healy;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  41.924778;
+	  longitude: -87.727785;
+	}
+      }
+      MapCircle {
+	id    : western_avenue;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  41.889155;
+	  longitude: -87.688135;
+	}
+      }
+      MapCircle {
+	id    : union;
+	color : circle_color;
+	radius: calcCircleRadius(map.zoomLevel);
+
+	center {
+	  latitude :  41.878755;
+	  longitude: -87.638858;
 	}
       }
 
       center {
-        latitude : lat;
-        longitude: lon;
+        latitude : pos_src.position.coordinate.latitude;
+        longitude: pos_src.position.coordinate.longitude;
       }
 
       anchors {
