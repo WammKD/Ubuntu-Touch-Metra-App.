@@ -7,7 +7,7 @@ function create(parent) {
 
 				  'MapPolyline { ' +
 				    'id        : ncs; ' +
-				    'line.width: fox_lake.zoom; ' +
+				    'line.width: md_n.zoom; ' +
 				    'line.color: "#7C53AF"; ' +
 				    'path      : [{latitude : 42.481071,  ' +
 				                  'longitude: -88.092227}, ' +
@@ -96,9 +96,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : antioch; ' +
+				    'id    : ncs__antioch; ' +
 				    'color : circle_color; ' +
-				    'radius: fox_lake.radi; ' +
+				    'radius: md_n.radi; ' +
 
 				    'center { ' +
 				      'latitude :  42.481023; ' +
@@ -110,9 +110,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : lake_villa; ' +
+				    'id    : ncs__lake_villa; ' +
 				    'color : circle_color; ' +
-				    'radius: fox_lake.radi; ' +
+				    'radius: md_n.radi; ' +
 
 				    'center { ' +
 				      'latitude :  42.417439; ' +
@@ -124,9 +124,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : round_lake_beach; ' +
+				    'id    : ncs__round_lake_beach; ' +
 				    'color : circle_color; ' +
-				    'radius: fox_lake.radi; ' +
+				    'radius: md_n.radi; ' +
 
 				    'center { ' +
 				      'latitude :  42.384994; ' +
@@ -138,13 +138,209 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : washington_grayslake; ' +
+				    'id    : ncs__washington_grayslake; ' +
 				    'color : circle_color; ' +
-				    'radius: fox_lake.radi; ' +
+				    'radius: md_n.radi; ' +
 
 				    'center { ' +
 				      'latitude :  42.359282; ' +
 				      'longitude: -88.050333; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__prarieCrossing_libertyville; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.318418; ' +
+				      'longitude: -88.017592; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__mundelein; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.266808; ' +
+				      'longitude: -87.997964; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__vernon_hills; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.215603; ' +
+				      'longitude: -87.964567; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__prarie_view; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.198045; ' +
+				      'longitude: -87.955819; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__buffalo_grove; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.168614; ' +
+				      'longitude: -87.941381; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__wheeling; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.136474; ' +
+				      'longitude: -87.927343; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__prospect_heights; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.082392; ' +
+				      'longitude: -87.908108; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__oHare_transfer; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.995010; ' +
+				      'longitude: -87.880619; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__rosemont; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.976111; ' +
+				      'longitude: -87.873898; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__schiller_park; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.962283; ' +
+				      'longitude: -87.870442; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__belmontAve_franklinPark; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.937777; ' +
+				      'longitude: -87.860006; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs__river_grove; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.931022; ' +
+				      'longitude: -87.836162; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs_western_avenue; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.889155; ' +
+				      'longitude: -87.688135; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : ncs_union; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.878755; ' +
+				      'longitude: -87.638858; ' +
 				    '} ' +
 				  '}', parent, ""));
 
