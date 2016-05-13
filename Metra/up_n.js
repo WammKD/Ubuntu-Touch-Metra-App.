@@ -125,6 +125,342 @@ function create(parent) {
 				      'longitude: -87.817970; ' +
 				    '} ' +
 				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__waukegan; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.360671; ' +
+				      'longitude: -87.828317; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__north_chicago; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.328614; ' +
+				      'longitude: -87.836952; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__great_lakes; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.306994; ' +
+				      'longitude: -87.846448; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__lake_bluff; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.279768; ' +
+				      'longitude: -87.846569; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__lake_forest; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.252445; ' +
+				      'longitude: -87.839595; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__fort_sheridan; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.217417; ' +
+				      'longitude: -87.820983; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__highwood; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.203370; ' +
+				      'longitude: -87.810527; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__highland_park; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.183247; ' +
+				      'longitude: -87.797433; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__ravinia; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.165054; ' +
+				      'longitude: -87.782845; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__ravinia_park; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.158284; ' +
+				      'longitude: -87.777251; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__braeside; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.152845; ' +
+				      'longitude: -87.772589; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__glencoe; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.135635; ' +
+				      'longitude: -87.758112; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__hubbard_woods; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.118961; ' +
+				      'longitude: -87.743619; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__winnetka; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.105139; ' +
+				      'longitude: -87.732862; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__indian_hill; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.094481; ' +
+				      'longitude: -87.723989; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__kenilworth; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.086309; ' +
+				      'longitude: -87.716646; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__wilmette; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.077360; ' +
+				      'longitude: -87.709212; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__evanston_central_street; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.064079; ' +
+				      'longitude: -87.698089; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__evanston_davis_street; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.047937; ' +
+				      'longitude: -87.684643; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__evanston_main_street; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.033440; ' +
+				      'longitude: -87.680195; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__rogers_park; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.009119; ' +
+				      'longitude: -87.675406; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__ravenswood; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.968707; ' +
+				      'longitude: -87.674345; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__clybourn; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.917006; ' +
+				      'longitude: -87.668234; ' +
+				    '} ' +
+				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__ogilvie; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  41.883029; ' +
+				      'longitude: -87.640542; ' +
+				    '} ' +
+				  '}', parent, ""));
 
   for(var i = 0; i < objects.length; i++) {
     parent.addMapItem(objects[i]);
