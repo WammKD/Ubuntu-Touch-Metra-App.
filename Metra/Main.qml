@@ -32,51 +32,115 @@ MainView {
               title    : "Metra";
 	      extension: Column {
 		           width  : parent.width;
-		           spacing: units.gu(2);
+			   height : children[0].height +
+			            children[1].height +
+				    units.gu(1);
+		           spacing: units.gu(1);
 
 			   Row {
-			     width: parent.width;
+			     height                  : children[0].height;
+			     spacing                 : units.gu(3);
+			     anchors.horizontalCenter: parent.horizontalCenter;
 
-			     Row {
-			       spacing         : units.gu(3);
-			       anchors.centerIn: parent;
+			     Column {
+			       spacing: units.gu(1);
 
-			       Row {
-				 spacing: units.gu(1);
+			       Label {
+				 text     : "UP-N";
+				 color    : UbuntuColors.porcelain;
+				 font.bold: true;
 
-				 Switch {
-				 }
-
-				 Label {
-				   text     : "UP-N";
-				   color    : up_n__color;
-				   font.bold: true;
+				 anchors {
+				   horizontalCenter: parent.horizontalCenter;
 				 }
 			       }
 
-			       Row {
-				 spacing: units.gu(1);
-
-				 Switch {
+			       Switch {
+				 id       : up_n__switch;
+				 onClicked: {
+				   if(checked) {
+				     ncs__switch.checked = false;
+				     NCS.destroy();
+				     md_n__switch.checked = false;
+				     MD_N.destroy();
+				     UP_N.create(map);
+				   } else {
+				     UP_N.destroy();
+				   }
 				 }
 
-				 Label {
-				   text     : "MD-N";
-				   color    : md_n__color;
-				   font.bold: true;
+				 StyleHints {
+				   defaultColor   : UbuntuColors.silk;
+				   backgroundColor: up_n__color;
+				 }
+			       }
+			     }
+
+			     Column {
+			       spacing: units.gu(1);
+
+			       Label {
+				 text     : "MD-N";
+				 color    : UbuntuColors.porcelain;
+				 font.bold: true;
+
+				 anchors {
+				   horizontalCenter: parent.horizontalCenter;
 				 }
 			       }
 
-			       Row {
-				 spacing: units.gu(1);
-
-				 Switch {
+			       Switch {
+				 id       : md_n__switch;
+				 checked  : true;
+				 onClicked: {
+				   if(checked) {
+				     ncs__switch.checked = false;
+				     NCS.destroy();
+				     up_n__switch.checked = false;
+				     UP_N.destroy();
+				     MD_N.create(map);
+				   } else {
+				     MD_N.destroy();
+				   }
 				 }
 
-				 Label {
-				   text     : "NCS";
-				   color    : ncs__color;
-				   font.bold: true;
+				 StyleHints {
+				   foregroundColor: UbuntuColors.silk;
+				   backgroundColor: md_n__color;
+				 }
+			       }
+			     }
+
+			     Column {
+			       spacing: units.gu(1);
+
+			       Label {
+				 text     : "NCS";
+				 color    : UbuntuColors.porcelain;
+				 font.bold: true;
+
+				 anchors {
+				   horizontalCenter: parent.horizontalCenter;
+				 }
+			       }
+
+			       Switch {
+				 id       : ncs__switch;
+				 onClicked: {
+				   if(checked) {
+				     md_n__switch.checked = false;
+				     MD_N.destroy();
+				     up_n__switch.checked = false;
+				     UP_N.destroy();
+				     NCS.create(map);
+				   } else {
+				     NCS.destroy();
+				   }
+				 }
+
+				 StyleHints {
+				   foregroundColor: UbuntuColors.silk;
+				   backgroundColor: ncs__color;
 				 }
 			       }
 			     }
@@ -89,7 +153,7 @@ MainView {
 				       Action { text: "Map";      }]
 
 			     StyleHints {
-			       foregroundColor: UbuntuColors.purple;
+			       defaultColor: UbuntuColors.purple;
 			     }
 			   }
 	                 }
