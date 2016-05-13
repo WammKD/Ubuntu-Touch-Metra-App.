@@ -8,86 +8,86 @@ function create(parent) {
 				  'MapPolyline { ' +
 				    'id        : ncs; ' +
 				    'line.width: md_n.zoom; ' +
-				    'line.color: "#7C53AF"; ' +
-				    'path      : [{latitude : 42.481071,  ' +
+				    'line.color: ncs__color; ' +
+				    'path      : [{latitude :  42.481071,  ' +
 				                  'longitude: -88.092227}, ' +
-		                                 '{latitude : 42.464225, ' +
+		                                 '{latitude :  42.464225, ' +
                                                   'longitude: -88.090675}, ' +
-		                                 '{latitude : 42.429313, ' +
+		                                 '{latitude :  42.429313, ' +
 				                  'longitude: -88.084349}, ' +
-		                                 '{latitude : 42.367944, ' +
+		                                 '{latitude :  42.367944, ' +
 				                  'longitude: -88.057032}, ' +
-		                                 '{latitude : 42.302731, ' +
+		                                 '{latitude :  42.302731, ' +
 				                  'longitude: -88.005605}, ' +
-		                                 '{latitude : 42.278998, ' +
+		                                 '{latitude :  42.278998, ' +
 				                  'longitude: -88.003958}, ' +
-		                                 '{latitude : 42.273015, ' +
+		                                 '{latitude :  42.273015, ' +
 				                  'longitude: -88.002268}, ' +
-		                                 '{latitude : 42.249312, ' +
+		                                 '{latitude :  42.249312, ' +
 				                  'longitude: -87.984706}, ' +
-		                                 '{latitude : 42.075291, ' +
+		                                 '{latitude :  42.075291, ' +
 				                  'longitude: -87.900787}, ' +
-		                                 '{latitude : 42.058745, ' +
+		                                 '{latitude :  42.058745, ' +
 				                  'longitude: -87.900726}, ' +
-		                                 '{latitude : 42.053285, ' +
+		                                 '{latitude :  42.053285, ' +
 				                  'longitude: -87.899993}, ' +
-		                                 '{latitude : 41.962317, ' +
+		                                 '{latitude :  41.962317, ' +
 				                  'longitude: -87.870078}, ' +
-		                                 '{latitude : 41.957563, ' +
+		                                 '{latitude :  41.957563, ' +
 				                  'longitude: -87.868011}, ' +
-		                                 '{latitude : 41.954925, ' +
+		                                 '{latitude :  41.954925, ' +
 				                  'longitude: -87.866277}, ' +
-		                                 '{latitude : 41.938546, ' +
+		                                 '{latitude :  41.938546, ' +
 				                  'longitude: -87.860397}, ' +
-		                                 '{latitude : 41.934201, ' +
+		                                 '{latitude :  41.934201, ' +
 				                  'longitude: -87.857749}, ' +
-		                                 '{latitude : 41.932887, ' +
+		                                 '{latitude :  41.932887, ' +
 				                  'longitude: -87.843552}, ' +
-		                                 '{latitude : 41.925616, ' +
+		                                 '{latitude :  41.925616, ' +
 				                  'longitude: -87.817676}, ' +
-		                                 '{latitude : 41.924537, ' +
+		                                 '{latitude :  41.924537, ' +
 				                  'longitude: -87.813087}, ' +
-		                                 '{latitude : 41.922985, ' +
+		                                 '{latitude :  41.922985, ' +
 				                  'longitude: -87.804801}, ' +
-		                                 '{latitude : 41.916619, ' +
+		                                 '{latitude :  41.916619, ' +
 				                  'longitude: -87.786863}, ' +
-		                                 '{latitude : 41.916460, ' +
+		                                 '{latitude :  41.916460, ' +
 				                  'longitude: -87.782579}, ' +
-		                                 '{latitude : 41.916703, ' +
+		                                 '{latitude :  41.916703, ' +
 				                  'longitude: -87.766331}, ' +
-		                                 '{latitude : 41.916616, ' +
+		                                 '{latitude :  41.916616, ' +
 				                  'longitude: -87.763640}, ' +
-		                                 '{latitude : 41.913838, ' +
+		                                 '{latitude :  41.913838, ' +
 				                  'longitude: -87.741088}, ' +
-		                                 '{latitude : 41.913353, ' +
+		                                 '{latitude :  41.913353, ' +
 				                  'longitude: -87.722645}, ' +
-		                                 '{latitude : 41.912228, ' +
+		                                 '{latitude :  41.912228, ' +
 				                  'longitude: -87.721480}, ' +
-		                                 '{latitude : 41.907677, ' +
+		                                 '{latitude :  41.907677, ' +
 				                  'longitude: -87.718785}, ' +
-		                                 '{latitude : 41.901894, ' +
+		                                 '{latitude :  41.901894, ' +
 				                  'longitude: -87.713724}, ' +
-		                                 '{latitude : 41.897000, ' +
+		                                 '{latitude :  41.897000, ' +
 				                  'longitude: -87.706924}, ' +
-		                                 '{latitude : 41.894139, ' +
+		                                 '{latitude :  41.894139, ' +
 				                  'longitude: -87.701252}, ' +
-		                                 '{latitude : 41.889130, ' +
+		                                 '{latitude :  41.889130, ' +
 				                  'longitude: -87.688607}, ' +
-		                                 '{latitude : 41.888491, ' +
+		                                 '{latitude :  41.888491, ' +
 				                  'longitude: -87.686261}, ' +
-		                                 '{latitude : 41.888443, ' +
+		                                 '{latitude :  41.888443, ' +
 				                  'longitude: -87.684787}, ' +
-		                                 '{latitude : 41.888471, ' +
+		                                 '{latitude :  41.888471, ' +
 				                  'longitude: -87.653724}, ' +
-		                                 '{latitude : 41.887991, ' +
+		                                 '{latitude :  41.887991, ' +
 				                  'longitude: -87.647684}, ' +
-		                                 '{latitude : 41.887949, ' +
+		                                 '{latitude :  41.887949, ' +
 				                  'longitude: -87.640616}, ' +
-		                                 '{latitude : 41.887532, ' +
+		                                 '{latitude :  41.887532, ' +
 				                  'longitude: -87.639963}, ' +
-		                                 '{latitude : 41.885834, ' +
+		                                 '{latitude :  41.885834, ' +
 				                  'longitude: -87.638960}, ' +
-		                                 '{latitude : 41.878893, ' +
+		                                 '{latitude :  41.878893, ' +
 				                  'longitude: -87.638977}] ' +
 				  '}', parent, ""));
 

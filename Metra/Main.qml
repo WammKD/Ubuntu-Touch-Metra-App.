@@ -19,7 +19,10 @@ MainView {
   width                       : units.gu(100);
   height                      : units.gu(75);
 
-  property string circle_color : '#0054A4';
+  property string circle_color: '#0054A4';
+  property string  md_n__color: '#FF821D';
+  property string   ncs__color: '#7C53AF';
+  property string  up_n__color: '#236214';
 
   Page {
     header: PageHeader {
@@ -91,7 +94,7 @@ MainView {
 	property real zoom: map.zoomLevel;
 	id                : md_n;
 	line.width        : md_n.zoom;
-	line.color        : "#FF821D";
+	line.color        : md_n__color;
 	path              : [{latitude: 42.398317, longitude: -88.182255},
 			     {latitude: 42.394860, longitude: -88.180451},
 			     {latitude: 42.389327, longitude: -88.170570},
