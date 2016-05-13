@@ -100,6 +100,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.481023; ' +
 				      'longitude: -88.092387; ' +
@@ -113,6 +117,10 @@ function create(parent) {
 				    'id    : ncs__lake_villa; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.417439; ' +
@@ -128,6 +136,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.384994; ' +
 				      'longitude: -88.065551; ' +
@@ -141,6 +153,10 @@ function create(parent) {
 				    'id    : ncs__washington_grayslake; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.359282; ' +
@@ -156,6 +172,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.318418; ' +
 				      'longitude: -88.017592; ' +
@@ -169,6 +189,10 @@ function create(parent) {
 				    'id    : ncs__mundelein; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.266808; ' +
@@ -184,6 +208,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.215603; ' +
 				      'longitude: -87.964567; ' +
@@ -197,6 +225,10 @@ function create(parent) {
 				    'id    : ncs__prarie_view; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.198045; ' +
@@ -212,6 +244,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.168614; ' +
 				      'longitude: -87.941381; ' +
@@ -225,6 +261,10 @@ function create(parent) {
 				    'id    : ncs__wheeling; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.136474; ' +
@@ -240,6 +280,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.082392; ' +
 				      'longitude: -87.908108; ' +
@@ -253,6 +297,10 @@ function create(parent) {
 				    'id    : ncs__oHare_transfer; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.995010; ' +
@@ -268,6 +316,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  41.976111; ' +
 				      'longitude: -87.873898; ' +
@@ -281,6 +333,10 @@ function create(parent) {
 				    'id    : ncs__schiller_park; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.962283; ' +
@@ -296,6 +352,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  41.937777; ' +
 				      'longitude: -87.860006; ' +
@@ -309,6 +369,10 @@ function create(parent) {
 				    'id    : ncs__river_grove; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.931022; ' +
@@ -324,6 +388,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  41.889155; ' +
 				      'longitude: -87.688135; ' +
@@ -337,6 +405,10 @@ function create(parent) {
 				    'id    : ncs_union; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.878755; ' +

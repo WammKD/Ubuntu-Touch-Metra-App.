@@ -10,6 +10,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.398317; ' +
 				      'longitude: -88.182255; ' +
@@ -23,6 +27,10 @@ function create(parent) {
 				    'id    : md_n__ingleside; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.383856; ' +
@@ -38,6 +46,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.368050; ' +
 				      'longitude: -88.128056; ' +
@@ -51,6 +63,10 @@ function create(parent) {
 				    'id    : md_n__round_lake; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.354575; ' +
@@ -66,6 +82,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.333680; ' +
 				      'longitude: -88.043307; ' +
@@ -79,6 +99,10 @@ function create(parent) {
 				    'id    : md_n__prarieCrossing_libertyville; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.320739; ' +
@@ -94,6 +118,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.291030; ' +
 				      'longitude: -87.956534; ' +
@@ -107,6 +135,10 @@ function create(parent) {
 				    'id    : md_n__lake_forest; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.223619; ' +
@@ -122,6 +154,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.167977; ' +
 				      'longitude: -87.849967; ' +
@@ -135,6 +171,10 @@ function create(parent) {
 				    'id    : md_n__lake_cook_road; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.152269; ' +
@@ -150,6 +190,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.126826; ' +
 				      'longitude: -87.827902; ' +
@@ -163,6 +207,10 @@ function create(parent) {
 				    'id    : md_n__glen_of_north_glenview; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.097562; ' +
@@ -178,6 +226,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.075010; ' +
 				      'longitude: -87.805658; ' +
@@ -191,6 +243,10 @@ function create(parent) {
 				    'id    : md_n__golf; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.058334; ' +
@@ -206,6 +262,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.034936; ' +
 				      'longitude: -87.785162; ' +
@@ -219,6 +279,10 @@ function create(parent) {
 				    'id    : md_n__edgebrook; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.997777; ' +
@@ -234,6 +298,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  41.978184; ' +
 				      'longitude: -87.755568; ' +
@@ -247,6 +315,10 @@ function create(parent) {
 				    'id    : md_n__mayfair; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.959720; ' +
@@ -262,6 +334,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  41.948887; ' +
 				      'longitude: -87.740285; ' +
@@ -275,6 +351,10 @@ function create(parent) {
 				    'id    : md_n__healy; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.924778; ' +
@@ -290,6 +370,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  41.889155; ' +
 				      'longitude: -87.688135; ' +
@@ -303,6 +387,10 @@ function create(parent) {
 				    'id    : md_n__union; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.878755; ' +

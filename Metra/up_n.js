@@ -92,6 +92,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.585879; ' +
 				      'longitude: -87.825790; ' +
@@ -105,6 +109,10 @@ function create(parent) {
 				    'id    : up_n__winthrop_harbor; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.482675; ' +
@@ -120,6 +128,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.449207; ' +
 				      'longitude: -87.817970; ' +
@@ -133,6 +145,10 @@ function create(parent) {
 				    'id    : up_n__waukegan; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.360671; ' +
@@ -148,6 +164,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.328614; ' +
 				      'longitude: -87.836952; ' +
@@ -161,6 +181,10 @@ function create(parent) {
 				    'id    : up_n__great_lakes; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.306994; ' +
@@ -176,6 +200,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.279768; ' +
 				      'longitude: -87.846569; ' +
@@ -189,6 +217,10 @@ function create(parent) {
 				    'id    : up_n__lake_forest; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.252445; ' +
@@ -204,6 +236,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.217417; ' +
 				      'longitude: -87.820983; ' +
@@ -217,6 +253,10 @@ function create(parent) {
 				    'id    : up_n__highwood; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.203370; ' +
@@ -232,6 +272,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.183247; ' +
 				      'longitude: -87.797433; ' +
@@ -245,6 +289,10 @@ function create(parent) {
 				    'id    : up_n__ravinia; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.165054; ' +
@@ -260,6 +308,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.158284; ' +
 				      'longitude: -87.777251; ' +
@@ -273,6 +325,10 @@ function create(parent) {
 				    'id    : up_n__braeside; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.152845; ' +
@@ -288,6 +344,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.135635; ' +
 				      'longitude: -87.758112; ' +
@@ -301,6 +361,10 @@ function create(parent) {
 				    'id    : up_n__hubbard_woods; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.118961; ' +
@@ -316,6 +380,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.105139; ' +
 				      'longitude: -87.732862; ' +
@@ -329,6 +397,10 @@ function create(parent) {
 				    'id    : up_n__indian_hill; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.094481; ' +
@@ -344,6 +416,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.086309; ' +
 				      'longitude: -87.716646; ' +
@@ -357,6 +433,10 @@ function create(parent) {
 				    'id    : up_n__wilmette; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.077360; ' +
@@ -372,6 +452,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.064079; ' +
 				      'longitude: -87.698089; ' +
@@ -385,6 +469,10 @@ function create(parent) {
 				    'id    : up_n__evanston_davis_street; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.047937; ' +
@@ -400,6 +488,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  42.033440; ' +
 				      'longitude: -87.680195; ' +
@@ -413,6 +505,10 @@ function create(parent) {
 				    'id    : up_n__rogers_park; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  42.009119; ' +
@@ -428,6 +524,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  41.968707; ' +
 				      'longitude: -87.674345; ' +
@@ -442,6 +542,10 @@ function create(parent) {
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
 
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
+
 				    'center { ' +
 				      'latitude :  41.917006; ' +
 				      'longitude: -87.668234; ' +
@@ -455,6 +559,10 @@ function create(parent) {
 				    'id    : up_n__ogilvie; ' +
 				    'color : circle_color; ' +
 				    'radius: md_n.radi; ' +
+
+				    'border { ' +
+				      'color: circle_border_color; ' +
+				    '} ' +
 
 				    'center { ' +
 				      'latitude :  41.883029; ' +

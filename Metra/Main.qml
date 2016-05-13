@@ -1,3 +1,4 @@
+import "up_n.js" as UP_N;
 import "md_n.js" as MD_N;
 import "ncs.js"  as NCS;
 import QtLocation 5.4;
@@ -11,18 +12,19 @@ import Ubuntu.Components 1.3;
 
 MainView {
   // objectName for functional testing purposes (autopilot-qt5)
-  objectName                  : "mainView";
+  objectName                         : "mainView";
 
   // Note! applicationName needs to match the "name" field of click manifest
-  applicationName             : "metra.jaft";
+  applicationName                    : "metra.jaft";
 
-  width                       : units.gu(100);
-  height                      : units.gu(75);
+  width                              : units.gu(100);
+  height                             : units.gu(75);
 
-  property string circle_color: '#0054A4';
-  property string  md_n__color: '#FF821D';
-  property string   ncs__color: '#7C53AF';
-  property string  up_n__color: '#236214';
+  property string        circle_color: 'white';
+  property string circle_border_color: '#0054A4';
+  property string         md_n__color: '#FF821D';
+  property string          ncs__color: '#7C53AF';
+  property string         up_n__color: '#236214';
 
   Page {
     header: PageHeader {
@@ -145,6 +147,9 @@ MainView {
 
 	// North Central Service
 	NCS.create(map);
+
+	// Union-Pacific/North Line
+	UP_N.create(map);
       }
 
       center {
