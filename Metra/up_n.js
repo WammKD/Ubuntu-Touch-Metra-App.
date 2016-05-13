@@ -97,6 +97,20 @@ function create(parent) {
 				      'longitude: -87.825790; ' +
 				    '} ' +
 				  '}', parent, ""));
+  objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
+				  'import QtPositioning 5.4; ' +
+				  'import QtQuick 2.4; ' +
+
+				  'MapCircle { ' +
+				    'id    : up_n__winthrop_harbor; ' +
+				    'color : circle_color; ' +
+				    'radius: md_n.radi; ' +
+
+				    'center { ' +
+				      'latitude :  42.482675; ' +
+				      'longitude: -87.816095; ' +
+				    '} ' +
+				  '}', parent, ""));
 
   for(var i = 0; i < objects.length; i++) {
     parent.addMapItem(objects[i]);
