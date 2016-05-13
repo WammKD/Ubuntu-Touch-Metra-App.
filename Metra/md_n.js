@@ -1,6 +1,14 @@
+var stored_item;
 var objects = [];
 
+function init(rent, item) {
+  stored_item = item;
+  create(rent);
+}
+
 function create(parent) {
+  stored_item.visible = true;
+
   objects.push(Qt.createQmlObject('import QtLocation 5.4; ' +
 				  'import QtPositioning 5.4; ' +
 				  'import QtQuick 2.4; ' +
@@ -404,6 +412,8 @@ function create(parent) {
 }
 
 function destroy() {
+  stored_item.visible = false;
+
   var items = objects.length;
   for(var i = 0; i < items; i++) {
     objects.pop().destroy(0);

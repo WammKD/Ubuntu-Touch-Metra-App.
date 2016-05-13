@@ -28,12 +28,75 @@ MainView {
 
   Page {
     header: PageHeader {
-              id   : pageHeader;
-              title: i18n.tr("Metra");
+              id       : page_header;
+              title    : "Metra";
+	      extension: Column {
+		           width  : parent.width;
+		           spacing: units.gu(2);
+
+			   Row {
+			     width: parent.width;
+
+			     Row {
+			       spacing         : units.gu(3);
+			       anchors.centerIn: parent;
+
+			       Row {
+				 spacing: units.gu(1);
+
+				 Switch {
+				 }
+
+				 Label {
+				   text     : "UP-N";
+				   color    : up_n__color;
+				   font.bold: true;
+				 }
+			       }
+
+			       Row {
+				 spacing: units.gu(1);
+
+				 Switch {
+				 }
+
+				 Label {
+				   text     : "MD-N";
+				   color    : md_n__color;
+				   font.bold: true;
+				 }
+			       }
+
+			       Row {
+				 spacing: units.gu(1);
+
+				 Switch {
+				 }
+
+				 Label {
+				   text     : "NCS";
+				   color    : ncs__color;
+				   font.bold: true;
+				 }
+			       }
+			     }
+			   }
+
+			   Sections {
+			     id     : sects;
+			     width  : parent.width;
+			     actions: [Action { text: "Schedule"; },
+				       Action { text: "Map";      }]
+
+			     StyleHints {
+			       foregroundColor: UbuntuColors.purple;
+			     }
+			   }
+	                 }
 
               StyleHints {
-                foregroundColor: UbuntuColors.orange;
-                backgroundColor: UbuntuColors.porcelain;
+                foregroundColor: UbuntuColors.porcelain;
+                backgroundColor: circle_border_color;
                 dividerColor   : UbuntuColors.slate;
               }
             }
@@ -44,7 +107,7 @@ MainView {
 
       anchors {
         horizontalCenter: parent.horizontalCenter;
-        top             : pageHeader.bottom;
+        top             : page_header.bottom;
         topMargin       : units.gu(2);
       }
 
@@ -143,13 +206,7 @@ MainView {
 			     {latitude: 41.878893, longitude: -87.638977}]
       }
       Component.onCompleted: {
-	MD_N.create(map);
-
-	// North Central Service
-	NCS.create(map);
-
-	// Union-Pacific/North Line
-	UP_N.create(map);
+	MD_N.init(map, md_n);
       }
 
       center {
