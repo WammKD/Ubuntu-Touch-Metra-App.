@@ -6,7 +6,7 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapPolyline { ' +
-				    'id        : ncs; ' +
+				    'objectName: "NCS"; ' +
 				    'line.width: md_n.zoom; ' +
 				    'line.color: ncs__color; ' +
 				    'path      : [{latitude :  42.481071,  ' +
@@ -96,9 +96,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__antioch; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Antioch"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -114,9 +114,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__lake_villa; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Lake Villa"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -132,9 +132,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__round_lake_beach; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Round Lake Beach"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -150,9 +150,10 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__washington_grayslake; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Washington/" +' +
+				                '"Grayslake"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -168,9 +169,10 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__prarieCrossing_libertyville; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Prarie-Crossing/" +' +
+				                '"Libertyville"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -186,9 +188,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__mundelein; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Mundelein"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -204,9 +206,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__vernon_hills; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Vernon Hills"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -222,9 +224,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__prarie_view; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Prarie View"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -240,9 +242,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__buffalo_grove; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Buffalo Grove"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -258,9 +260,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__wheeling; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Wheeling"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -276,9 +278,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__prospect_heights; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Prospect Heights"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -294,9 +296,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__oHare_transfer; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS O\'Hare Transfer"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -312,9 +314,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__rosemont; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Rosemont"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -330,9 +332,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__schiller_park; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Schiller Park"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -348,9 +350,10 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__belmontAve_franklinPark; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Belmont-Avenue/" +' +
+				                '"Franklin-Park"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -366,9 +369,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs__river_grove; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS River Grove"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -384,9 +387,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs_western_avenue; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Western Avenue"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -402,9 +405,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : ncs_union; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "NCS Union"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +

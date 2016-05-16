@@ -78,6 +78,10 @@ MainView {
 				     md_n__switch.checked = false;
 				     MD_N.destroy();
 				     UP_N.create(map);
+
+				     for(var i in map.children) {
+				       print(map.children[i].objectName);
+				     }
 				   } else {
 				     UP_N.destroy();
 				   }
