@@ -6,7 +6,7 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapPolyline { ' +
-				    'id        : ncs; ' +
+				    'objectName: "UP-N"; ' +
 				    'line.width: md_n.zoom; ' +
 				    'line.color: up_n__color; ' +
 				    'path      : [{latitude :  42.585833, ' +
@@ -88,9 +88,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__kenosha; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Kenosha"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -106,9 +106,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__winthrop_harbor; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Winthrop Harbor"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -124,9 +124,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__zion; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Zion"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -142,9 +142,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__waukegan; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Waukegan"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -160,9 +160,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__north_chicago; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N North Chicago"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -178,9 +178,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__great_lakes; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Great Lakes"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -196,9 +196,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__lake_bluff; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Lake Bluff"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -214,9 +214,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__lake_forest; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Lake Forest"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -232,9 +232,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__fort_sheridan; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Fort Sheridan"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -250,9 +250,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__highwood; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Highwood"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -268,9 +268,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__highland_park; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Highland Park"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -286,9 +286,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__ravinia; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Ravinia"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -304,9 +304,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__ravinia_park; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Ravinia Park"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -322,9 +322,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__braeside; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Braeside"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -340,9 +340,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__glencoe; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Glencoe"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -358,9 +358,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__hubbard_woods; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Hubbard Woods"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -376,9 +376,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__winnetka; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Winnetka"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -394,9 +394,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__indian_hill; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Indian Hill"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -412,9 +412,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__kenilworth; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Kenilworth"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -430,9 +430,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__wilmette; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Wilmette"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -448,9 +448,10 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__evanston_central_street; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Evanston: Central " +' +
+				                '"Street"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -466,9 +467,10 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__evanston_davis_street; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Evanston: Davis " +' +
+				                '"Street"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -484,9 +486,10 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__evanston_main_street; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Evanston: Main " +' +
+				                '"Street"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -502,9 +505,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__rogers_park; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Rogers Park"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -520,9 +523,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__ravenswood; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Ravenswood"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -538,9 +541,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__clybourn; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Clybourn"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
@@ -556,9 +559,9 @@ function create(parent) {
 				  'import QtQuick 2.4; ' +
 
 				  'MapCircle { ' +
-				    'id    : up_n__ogilvie; ' +
-				    'color : circle_color; ' +
-				    'radius: md_n.radi; ' +
+				    'objectName: "UP-N Ogilvie"; ' +
+				    'color     : circle_color; ' +
+				    'radius    : md_n.radi; ' +
 
 				    'border { ' +
 				      'color: circle_border_color; ' +
