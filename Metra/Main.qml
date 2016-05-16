@@ -1,10 +1,11 @@
-import "up_n.js" as UP_N;
 import "md_n.js" as MD_N;
 import "ncs.js"  as NCS;
+import "up_n.js" as UP_N;
 import QtLocation 5.4;
 import QtPositioning 5.4;
 import QtQuick 2.4;
 import Ubuntu.Components 1.3;
+import Ubuntu.Components.Themes 1.3;
 
 /*!
  *  \brief MainView with a Label and Button elements.
@@ -20,11 +21,21 @@ MainView {
   width                              : units.gu(100);
   height                             : units.gu(75);
 
+  property string         metra_color: '#0054A4';
   property string        circle_color: 'white';
-  property string circle_border_color: '#0054A4';
+  property string circle_border_color: metra_color;
   property string         md_n__color: '#FF821D';
   property string          ncs__color: '#7C53AF';
   property string         up_n__color: '#236214';
+  
+  theme.palette                      : Palette {
+                                         selected.backgroundTertiaryText: UbuntuColors.porcelain;
+
+					 normal {
+					   base: metra_color;
+					   backgroundTertiaryText: UbuntuColors.porcelain;
+					 }
+                                       }
 
   Page {
     header: PageHeader {
@@ -70,8 +81,7 @@ MainView {
 				 }
 
 				 StyleHints {
-				   defaultColor   : UbuntuColors.silk;
-				   backgroundColor: up_n__color;
+				   backgroundColor: UbuntuColors.red;
 				 }
 			       }
 			     }
@@ -105,8 +115,7 @@ MainView {
 				 }
 
 				 StyleHints {
-				   foregroundColor: UbuntuColors.silk;
-				   backgroundColor: md_n__color;
+				   backgroundColor: UbuntuColors.red;
 				 }
 			       }
 			     }
@@ -139,28 +148,24 @@ MainView {
 				 }
 
 				 StyleHints {
-				   foregroundColor: UbuntuColors.silk;
-				   backgroundColor: ncs__color;
+				   foregroundColor: UbuntuColors.purple;
+				   backgroundColor: UbuntuColors.red;
 				 }
 			       }
 			     }
 			   }
 
 			   Sections {
-			     id     : sects;
-			     width  : parent.width;
-			     actions: [Action { text: "Schedule"; },
-				       Action { text: "Map";      }]
-
-			     StyleHints {
-			       defaultColor: UbuntuColors.purple;
-			     }
+			     id           : sects;
+			     width        : parent.width;
+			     actions      : [Action { text: "Schedule"; },
+					     Action { text: "Map";      }]
 			   }
 	                 }
 
               StyleHints {
                 foregroundColor: UbuntuColors.porcelain;
-                backgroundColor: circle_border_color;
+                backgroundColor: metra_color;
                 dividerColor   : UbuntuColors.slate;
               }
             }
