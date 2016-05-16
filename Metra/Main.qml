@@ -70,6 +70,9 @@ MainView {
 				 id       : up_n__switch;
 				 onClicked: {
 				   if(checked) {
+				     label.text  = "Union-Pacific/North Line";
+				     label.color = up_n__color;
+
 				     ncs__switch.checked = false;
 				     NCS.destroy();
 				     md_n__switch.checked = false;
@@ -104,6 +107,10 @@ MainView {
 				 checked  : true;
 				 onClicked: {
 				   if(checked) {
+				     label.text  = "Milwaukee-District/" +
+				                   "North Line";
+				     label.color = md_n__color;
+
 				     ncs__switch.checked = false;
 				     NCS.destroy();
 				     up_n__switch.checked = false;
@@ -137,6 +144,9 @@ MainView {
 				 id       : ncs__switch;
 				 onClicked: {
 				   if(checked) {
+				     label.text  = "North Central Service";
+				     label.color = ncs__color;
+				     
 				     md_n__switch.checked = false;
 				     MD_N.destroy();
 				     up_n__switch.checked = false;
@@ -173,33 +183,13 @@ MainView {
     Label {
       id        : label;
       objectName: "label";
+      text      : "Milwauke-District/North Line";
+      color     : md_n__color;
+      fontSize  : "large";
 
       anchors {
         horizontalCenter: parent.horizontalCenter;
         top             : page_header.bottom;
-        topMargin       : units.gu(2);
-      }
-
-      text: i18n.tr("Hello..");
-    }
-
-    Button {
-      id        : button;
-      objectName: "button";
-      width     : parent.width;
-      text      : i18n.tr("Tap me!");
-      onClicked : {
-	NCS.destroy();
-        label.text = i18n.tr("Longitude: " +
-			     pos_src.position.coordinate.longitude +
-			     "; Latitude: " +
-			     pos_src.position.coordinate.latitude +
-			     "; Fox Lake: " + fox_lake);
-      }
-
-      anchors {
-        horizontalCenter: parent.horizontalCenter;
-        top             : label.bottom;
         topMargin       : units.gu(2);
       }
     }
@@ -217,7 +207,7 @@ MainView {
 			   preferred: ["here", "osm"];
                          }
       width            : parent.width;
-      height           : parent.width;
+      height           : parent.height - page_header.height - units.gu(2);
       zoomLevel        : map.maximumZoomLevel * 0.60;
       gesture.enabled  : true;
 
@@ -285,7 +275,7 @@ MainView {
 
       anchors {
         horizontalCenter: parent.horizontalCenter;
-        top             : button.bottom;
+        top             : label.bottom;
         topMargin       : units.gu(2);
       }
     }
